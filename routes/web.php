@@ -11,7 +11,6 @@ Route::get('/user_profile','UserController@user_profile')->name('user_profile');
 
 
 
-
 Route::get('/', 'PagesController@index');
 Route::get('welcome', 'PagesController@welcome');
 Route::get('/food', 'PagesController@food');
