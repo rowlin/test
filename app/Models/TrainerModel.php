@@ -469,5 +469,5 @@ class TrainerModel extends Model
         $result['result'] = true;
         return $result;
     }
-
+    
 }

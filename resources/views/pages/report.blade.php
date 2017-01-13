@@ -4,6 +4,10 @@
     <script src="{{URL::asset('js/ckeditor/ckeditor.js')}}"></script>
     <script src="{{URL::asset('js/report.js')}}"></script>
 @endsection
+<<<<<<< HEAD
+=======
+<?php ?>
+>>>>>>> 4b0d72121ab1be9e0a1bcfe4856d8f68e55944f9
 @section('wrapper')
     <section class="fon_2">
         @include('elements.headerUser')

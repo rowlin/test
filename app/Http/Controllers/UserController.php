@@ -19,8 +19,10 @@ class UserController extends Controller
 
 
     public function profile() {
+
         $id = \Auth::id();
         $userData = UserModel::getUserInfo($id);
+
         return view('user.profile', compact('userData', $userData));
     }
 

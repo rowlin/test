@@ -15,7 +15,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password','phone',  'pay', 
+        'name', 'email', 'password',
     ];
 
     /**
@@ -24,8 +24,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token','code'
+        'password', 'remember_token',
     ];
+
     
     /*
      *  Определяем  задания , 
@@ -54,7 +55,4 @@ class User extends Authenticatable
          return $this->code;
     }
     
-    
-    
-
-}
+    }

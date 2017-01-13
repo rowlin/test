@@ -55,9 +55,15 @@ return [
         'mysql' => [
             'driver'    => 'mysql',
             'host'      => 'localhost',
+<<<<<<< HEAD
             'database'  => 'test_old',
             'username'  => 'homestead',
             'password'  => 'secret',
+=======
+            'database'  => 'lp7',
+            'username'  => 'root',
+            'password'  => '',
+>>>>>>> 4b0d72121ab1be9e0a1bcfe4856d8f68e55944f9
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
